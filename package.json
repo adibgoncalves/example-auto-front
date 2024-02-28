@@ -1,0 +1,38 @@
+{
+  "name": "example-auto-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run --spec \"**/*.feature\""
+  },
+  "keywords": [
+    "cypress",
+    "cypress-plugin",
+    "cypress-preprocessor"
+  ],
+  "author": "Adib Gonçalves",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.6.6"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false,
+    "stream": false,
+    "dns": false,
+    "crypto": false,
+    "http": false,
+    "querystring": false,
+    "child_process": false,
+    "fs/promises": false,
+    "net": false,
+    "tls": false,
+    "zlib": false,
+    "timers": false
+  }
+}
