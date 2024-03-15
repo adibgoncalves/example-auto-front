@@ -1,12 +1,13 @@
 const locators = {
     FORM: {
+        HEADER: "header",
         FIRST_NAME: {
             LABEL: "form > :nth-child(1) > :nth-child(1) > label",
             INPUT: "#first-name"
         },
         LAST_NAME: {
             LABEL: "form > :nth-child(1) > :nth-child(2) > label",
-            INPUT: "#first-name"
+            INPUT: "#last-name"
         },
         EMAIL: {
             LABEL: "form > :nth-child(2) > :nth-child(1) > label",
